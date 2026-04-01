@@ -61,18 +61,19 @@
 .logo-badge {
   width: 520px;
   height: 520px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 80px;
+  display: block;
   overflow: hidden;
+  position: relative;
 }
 
 .logo-image {
-  width: 480px;
+  width: 450px;
   height: auto;
   display: block;
-  object-fit: contain;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 }
     .cta {
       font-family: Georgia, "Times New Roman", serif;
